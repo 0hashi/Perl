@@ -9,7 +9,7 @@
 # AD Groups to access certain Linux/Unix systems.
 #
 # 8-20-21 modified to use a specific naming convention for Linux system hostnames and
-# AD Groups names (%ComputerName%_ADMIN$ and %ComputerName%_READONLY$).
+# AD Groups names (%ComputerName%_ADMIN$ and %ComputerName%_READONLY$). 
 #
 # 9-20-21 Added array for possible domain AD Groups (@adGroupsAllowed) to be added to the
 # users.allow file and a foreach loop to test if any of the AD Groups in the array already
